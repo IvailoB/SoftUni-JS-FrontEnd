@@ -1,0 +1,27 @@
+.btn{
+    padding: 10px 6px;
+    border-radius: 20px;
+    border: 1px solid var(--color-bluee);
+    background-color: white;
+    color: var(--color-bluee);
+    cursor: pointer;
+}
+
+.btn--primary{
+    background-color: var(--color-bluee);
+    color: white;
+}
+
+
+/*
+tag
+*/
+
+.tag{
+    padding: 20px 24px;
+    border-radius: 20px;
+    background-color: var(--color-gray-light);
+    color: var(--color-gray);
+    font-weight: bold;
+    font-size: 21px;
+}

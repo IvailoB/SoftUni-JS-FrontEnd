@@ -1,0 +1,61 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+
+/*
+#786eff - lilavo
+#f6f8f9 - bg
+#737d86 - za malkiq tekst
+*/
+
+
+.enterprise{
+    background-color: #f6f8f9;
+    padding: 0px 24px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.enterprise .info{
+    width: 50%;
+    padding: 48px 0px;
+}
+
+.enterprise .subTitle{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.enterprise .title{
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.enterprise .desc{
+    margin-bottom: 20px;
+    color: #737d86;
+}
+
+.enterprise .btn{
+    border: 1px solid black;
+    padding: 12px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.enterprise .btn.btn-primary{
+    border-color: #786eff;
+    background-color: #786eff;
+    color: white;
+    margin-right: 12px;
+}
+
+.enterprise .img{
+    width: 30%;
+}

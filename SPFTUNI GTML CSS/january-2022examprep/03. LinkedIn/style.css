@@ -1,0 +1,103 @@
+:root {
+    --color-bluee: #0a66c2;
+    --color-beige: #f1ece5;
+    --color-beige-light: #faf9f7;
+    --color-gray-light: #e6e5e4;
+    --color-gray: #5c5c6c;
+    --color-orange: #b24020;
+
+    --section-padding: 48px 120px;
+    --section-padding-x: 180px;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: "Monserat", sans-serif;
+}
+
+.hero {
+    padding: var(--section-padding);
+}
+
+.hero .content {
+    width: 60%;
+    position: relative;
+}
+
+.hero .content form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.hero .content form input {
+    margin-bottom: 12px;
+    padding: 10px 6px;
+}
+
+.hero .content .title {
+    color: var(--color-bluee);
+    font-weight: bold;
+    font-size: 76px;
+    line-height: 1.2;
+    margin-bottom: 21px;
+}
+
+.hero .content form a {
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.hero .hero-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 39%;
+}
+
+/*
+SECTION
+*/
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+/*
+JOBS
+*/
+
+.jobs {
+    background-color: var(--color-beige-light);
+    padding: 160px var(--section-padding-x);
+    display: flex;
+    justify-content: center;
+}
+
+.jobs .options {
+    width: 69%;
+}
+
+.jobs .subTitle {
+    font-size: 51px;
+    width: 500px;
+}
+
+.jobs .options h3 {
+    color: var(--color-gray);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.jobs .options .tags {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}

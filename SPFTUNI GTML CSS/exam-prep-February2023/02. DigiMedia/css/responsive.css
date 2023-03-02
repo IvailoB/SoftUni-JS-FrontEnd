@@ -1,0 +1,13 @@
+/* TODO: Add responsive styles here... */
+
+@media screen and (max-width: 600px){
+    
+    
+    .navbar-collapse{
+        display: none;
+    }
+    .navbar-brand{
+        align-items: center;
+    }
+
+}

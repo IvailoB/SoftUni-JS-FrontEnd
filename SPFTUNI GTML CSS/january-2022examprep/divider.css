@@ -1,0 +1,40 @@
+.wrapper-element {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+/* na sushtiq element(child element) 
+:: after element */
+.wrapper-element::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+}
+
+/* vzimane samo na edin element ot benefit */
+.benefit:first-child .benefit-title::after{
+    bottom: 0;
+}
+
+
+
+/*
+DIVIDER RIGHT
+*/
+.wrapper-element {
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.child-element::after {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    right: 11px;
+}
