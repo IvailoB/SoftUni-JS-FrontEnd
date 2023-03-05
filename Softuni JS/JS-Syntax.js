@@ -191,20 +191,22 @@
 
 //------------------------------ Ex No.15 -----------------------------------------
 
-function listOfNames(names) {
+// function listOfNames(names) {
 
-    return [...names]
-        .sort((a, b) => a.localeCompare(b))
-        .map((el, index) => `${index + 1}.${el}`)
-        .join(`\n`)
-}
+//     return [...names]
+//         .sort((a, b) => a.localeCompare(b))
+//         .map((el, index) => `${index + 1}.${el}`)
+//         .join(`\n`)
+// }
 
-console.log(
-    listOfNames(
-        ['IVA', 'ASQ', 'BOB', 'EMA']
-    )
-)
-//------------------------------ Ex No.2 -----------------------------------------
+// console.log(
+//     listOfNames(
+//         ['IVA', 'ASQ', 'BOB', 'EMA']
+//     )
+// )
+
+
+//------------------------------ Ex No.16 -----------------------------------------
 
 
 //------------------------------ Ex No.2 -----------------------------------------
