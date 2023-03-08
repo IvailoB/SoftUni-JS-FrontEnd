@@ -146,12 +146,12 @@
 //------------------------------ Ex No.9 Loading Bar -----------------------------------------
 //------------------------------ Ex No.10 Factorial Division -----------------------------------------
 
-function getFactorial(number) {
-    if(number === 1) {
-        return number;
-    }
-    return number * getFactorial(number - 1)
-}
+// function getFactorial(number) {
+//     if(number === 1) {
+//         return number;
+//     }
+//     return number * getFactorial(number - 1)
+// }
 
-console.log(getFactorial(4))
+// console.log(getFactorial(4))
 
