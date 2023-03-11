@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="../static/css/profile.css">
+  </head>
+  <body>
+    
+    <header th:fragment="header">
+      <div class="nav container">
+  
+          <i class='bx bx-menu' id="menu-icon"></i>
+  
+          <a href="#" class="logo">Car <span>Point</span></a>
+  
+          <ul class="navbar">
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#cars">Cars</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#parts">Parts</a></li>
+              <li><a href="#blog">Out Blog</a></li>
+          </ul>
+  
+          <i class='bx bx-search' id="search-icon"></i>
+  
+          <div class="search-box container">
+              <input type="search" name="" id="" placeholder="Search here...">
+          </div>
+  
+      </div>
+  </header>
+
+    <main>
+      <section class="profile-info">
+        <div class="avatar-container">
+          <img src="https://via.placeholder.com/200" alt="Profile Picture">
+          <button class="change-avatar-btn">Change Avatar</button>
+        </div>
+        <div class="user-info">
+          <h1>John Doe</h1>
+          <p class="username">@johndoe</p>
+          <p class="bio">I am a software engineer with a passion for coding.</p>
+          <ul class="user-stats">
+            <li><strong>Posts:</strong> 27</li>
+            <li><strong>Followers:</strong> 352</li>
+            <li><strong>Following:</strong> 102</li>
+          </ul>
+        </div>
+      </section>
+      <section class="recent-posts">
+        <h2>Recent Posts</h2>
+        <ul>
+          <li>
+            <div class="post-header">
+              <img src="https://via.placeholder.com/50" alt="Post Picture">
+              <div class="post-info">
+                <p><strong>John Doe</strong> @johndoe</p>
+                <p class="date">Posted on March 10th, 2023</p>
+              </div>
+            </div>
+            <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci quis ex euismod venenatis in nec turpis. In lobortis orci eu arcu aliquam, vitae dictum dolor molestie. Nullam eget faucibus tellus. </p>
+          </li>
+          <li>
+            <div class="post-header">
+              <img src="https://via.placeholder.com/50" alt="Post Picture">
+              <div class="post-info">
+                <p><strong>John Doe</strong> @johndoe</p>
+                <p class="date">Posted on March 7th, 2023</p>
+              </div>
+            </div>
+            <p class="post-text">Suspendisse suscipit bibendum lorem, non commodo tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis varius velit ut quam vestibulum, sed bibendum libero suscipit. </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    
+    <section th:fragment="footer" class="footer">
+      <div class="footer-container container">
+          <div class="footer-box">
+              <a href="#" class="logo">Car <span>Point</span></a>
+              <div class="social">
+                  <a href="#"><i class='bx bxl-facebook'></i></a>
+                  <a href="#"><i class='bx bxl-instagram'></i></a>
+                  <a href="#"><i class='bx bxl-twitter'></i></a>
+              </div>
+          </div>
+          <div class="footer-box">
+              <h3>Page</h3>
+              <a href="#">Home</a>
+              <a href="#">Cars</a>
+              <a href="#">Sales</a>
+          </div>
+          <div class="footer-box">
+              <h3>Legal</h3>
+              <a href="#">Privacy</a>
+              <a href="#">Refund Policy</a>
+              <a href="#">Cookie Policy</a>
+          </div>
+          <div class="footer-box">
+              <h3>Contact</h3>
+              <p>Bulgaria</p>
+              <p>Germany</p>
+              <p>United States</p>
+          </div>
+      </div>
+  </section>
+  
+  <div class="copyright">
+      <p>&#169; Thank you for visited my website</p>
+  </div>
+  <!-- Link to JS -->
+  <script src="/static/main.js"></script>
+
+  </body>
+</html>
