@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 'Source Sans 3', sans-serif ;
+}
+
+/*За центриране*/
+
+body {
+    background: #F6F6F6;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea {
+    font: inherit;
+}
+
+a { 
+    color: #585858;
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    max-width: 1280px;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+aside {
+    flex: 0 0 350px;
+}
+
+form {
+    padding-top: 2em;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #585858;
+    margin-bottom: 2em;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #D6D6D6;
+    margin-bottom: 1.5em;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 0.2em;
+    background-color: #585858;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    padding: 1em 2em;
+    
+}
+
+.flex-row {
+    display: flex;
+    gap: 0.5em;
+}
+
+
+.social {
+    display: flex;
+    gap: 0.2em;
+    flex-wrap: wrap;
+}
+
+.social li {
+    display: block;
+    border: 1px solid #585858;
+    border-radius: 0.1em;
+    line-height: 1;
+}
+
+.social li a {
+    display: block;
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+}

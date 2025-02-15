@@ -1,0 +1,54 @@
+@media (width <= 600px){
+    
+    nav ul {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+        order: 1;
+    }
+
+    .site-header > i, h1 {
+        text-align: inherit;
+        position: inherit;
+        bottom: initial;
+    }
+
+    section.site-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.about {
+        display: flex;
+        gap: 1em;
+    }
+
+    section.about .about-header,
+    section.about .about-text {
+        flex: 1 1 50%;
+    }
+
+    section.about .about-header{
+        text-align: left;
+        width: auto;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section.about .about-text {
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+
+    .gallery {
+        text-align: center;
+    }
+}
+
